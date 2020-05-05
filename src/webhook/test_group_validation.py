@@ -64,6 +64,7 @@ class TestGroupValidation(unittest.TestCase):
         ("dedicated-admins"),
         ("cluster-admins"),
         ("layered-cs-sre-admins"),
+        ("layered-cs-sre-cluster-admins"),
     )
 
     NON_PRIVILEGED_USERS = (
